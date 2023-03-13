@@ -1,0 +1,136 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: white
+}
+
+
+.flex-container {
+  display: flex;
+  border: 2px solid black;
+  max-width: 1000px;
+  margin: 20px;
+  background-color: lightyellow;
+  
+}
+
+.flex-container2 {
+  display: flex;
+  border: 2px solid black;
+  max-width: 1000px;
+  margin: 20px;
+  background-color: white;
+  
+}
+
+.container {
+  margin: 10px;
+}
+
+
+#img-container {
+  flex-grow: 1;
+}
+
+#img-container img {
+  width: 100%;
+  max-width: 500px;
+}
+
+#description {
+  background-color: #4f1107;
+  line-height: 1.6;
+  color: white;
+  padding: 10px;
+  flex-grow: 2;
+  border: 4px solid black;
+}
+
+h3{
+  margin:10px
+}
+
+.project-text{
+  margin:10px
+}
+
+.intro-text{
+  max-width:600px
+}
+
+h4{
+  margin:10px
+}
+
+.project-inro{
+  margin:10px
+}
+
+.projimg-container{
+  max-width:500px;
+  margin:10px
+}
+
+li {
+  margin-top: 10px;
+}
+
+.lib-tag{
+  width: 55px;
+  border: 1px solid black;
+  background-color: #d7eaea;
+  margin-left: 10px;
+  font-size: 14px;
+  flex-wrap: wrap;
+
+}
+
+.lib-tag2{
+  width: 100px;
+  border: 1px solid black;
+  background-color: #d7eaea;
+  margin-left: 10px;
+  font-size: 14px;
+  flex-wrap: wrap;
+
+}
+
+.my-image{
+  margin:10px;
+  position:relative;
+  max-width:300px;
+  max-height:500px;
+}
+
+/* images and videos max out at full width */
+.img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+.pages-text {
+  font-size: 20px;
+  /*   border: 1px solid black; */
+  margin: 10px;
+  padding: 5px;
+ font-family: 'Noto Serif', serif;
+}
+
+.intr-text{
+  margin:20px;
+}
